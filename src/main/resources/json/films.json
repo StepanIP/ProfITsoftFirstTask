@@ -1,0 +1,596 @@
+[
+  {
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "actors": [
+      "Leonardo Dicaprio",
+      "Joseph Gordon-Levitt",
+      "Ellen Page",
+      "Tom Hardy"
+    ]
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "director": "Frank Darabont",
+    "genres": [
+      "Drama"
+    ],
+    "actors": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton"
+    ]
+  },
+  {
+    "title": "The Godfather",
+    "year": 1972,
+    "director": "Francis Ford Coppola",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "actors": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan"
+    ]
+  },
+  {
+    "title": "Forrest Gump",
+    "year": 1994,
+    "director": "Robert Zemeckis",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "actors": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise"
+    ]
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "director": "Christopher Nolan",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "actors": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart"
+    ]
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "director": "Quentin Tarantino",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "actors": [
+      "John Travolta",
+      "Uma Thurman",
+      "Samuel L. Jackson"
+    ]
+  },
+  {
+    "title": "Schindler's List",
+    "year": 1993,
+    "director": "Steven Spielberg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "actors": [
+      "Liam Neeson",
+      "Ben Kingsley",
+      "Ralph Fiennes"
+    ]
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "director": "Peter Jackson",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "actors": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen"
+    ]
+  },
+  {
+    "title": "Fight Club",
+    "year": 1999,
+    "director": "David Fincher",
+    "genres": [
+      "Drama"
+    ],
+    "actors": [
+      "Brad Pitt",
+      "Edward Norton",
+      "Helena Bonham Carter"
+    ]
+  },
+  {
+    "title": "The Matrix",
+    "year": 1999,
+    "director": "The Wachowskis",
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "actors": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss"
+    ]
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "director": "Frank Darabont",
+    "genres": [
+      "Drama"
+    ],
+    "actors": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton"
+    ]
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "director": "Jonathan Demme",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "actors": [
+      "Jodie Foster",
+      "Anthony Hopkins",
+      "Scott Glenn"
+    ]
+  },
+  {
+    "title": "Goodfellas",
+    "year": 1990,
+    "director": "Martin Scorsese",
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "actors": [
+      "Robert De Niro",
+      "Ray Liotta",
+      "Joe Pesci"
+    ]
+  },
+  {
+    "title": "Saving Private Ryan",
+    "year": 1998,
+    "director": "Steven Spielberg",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "actors": [
+      "Tom Hanks",
+      "Matt Damon",
+      "Tom Sizemore"
+    ]
+  },
+  {
+    "title": "The Green Mile",
+    "year": 1999,
+    "director": "Frank Darabont",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Fantasy"
+    ],
+    "actors": [
+      "Tom Hanks",
+      "Michael Clarke Duncan",
+      "David Morse"
+    ]
+  },
+  {
+    "title": "The Godfather: Part II",
+    "year": 1974,
+    "director": "Francis Ford Coppola",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "actors": [
+      "Al Pacino",
+      "Robert De Niro",
+      "Robert Duvall"
+    ]
+  },
+  {
+    "title": "Se7en",
+    "year": 1995,
+    "director": "David Fincher",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "actors": [
+      "Morgan Freeman",
+      "Brad Pitt",
+      "Kevin Spacey"
+    ]
+  },
+  {
+    "title": "Gladiator",
+    "year": 2000,
+    "director": "Ridley Scott",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "actors": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen"
+    ]
+  },
+  {
+    "title": "The Departed",
+    "year": 2006,
+    "director": "Martin Scorsese",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "actors": [
+      "Leonardo Dicaprio",
+      "Matt Damon",
+      "Jack Nicholson"
+    ]
+  },
+  {
+    "title": "Inglourious Basterds",
+    "year": 2009,
+    "director": "Quentin Tarantino",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "War"
+    ],
+    "actors": [
+      "Brad Pitt",
+      "Diane Kruger",
+      "Eli Roth"
+    ]
+  },
+  {
+    "title": "The Godfather: Part III",
+    "year": 1990,
+    "director": "Francis Ford Coppola",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "actors": [
+      "Al Pacino",
+      "Diane Keaton",
+      "Andy Garcia"
+    ]
+  },
+  {
+    "title": "The Social Network",
+    "year": 2010,
+    "director": "David Fincher",
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
+    "actors": [
+      "Jesse Eisenberg",
+      "Andrew Garfield",
+      "Justin Timberlake"
+    ]
+  },
+  {
+    "title": "The Prestige",
+    "year": 2006,
+    "director": "Christopher Nolan",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "actors": [
+      "Christian Bale",
+      "Hugh Jackman",
+      "Scarlett Johansson"
+    ]
+  },
+  {
+    "title": "The Usual Suspects",
+    "year": 1995,
+    "director": "Bryan Singer",
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "actors": [
+      "Kevin Spacey",
+      "Gabriel Byrne",
+      "Chazz Palminteri"
+    ]
+  },
+  {
+    "title": "American History X",
+    "year": 1998,
+    "director": "Tony Kaye",
+    "genres": [
+      "Drama"
+    ],
+    "actors": [
+      "Edward Norton",
+      "Edward Furlong",
+      "Beverly D'Angelo"
+    ]
+  },
+  {
+    "title": "The Lion King",
+    "year": 1994,
+    "director": "Roger Allers, Rob Minkoff",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "actors": [
+      "Matthew Broderick",
+      "Jeremy Irons",
+      "James Earl Jones"
+    ]
+  },
+  {
+    "title": "The Sixth Sense",
+    "year": 1999,
+    "director": "M. Night Shyamalan",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "actors": [
+      "Bruce Willis",
+      "Haley Joel Osment",
+      "Toni Collette"
+    ]
+  },
+  {
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "actors": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Ellen Page",
+      "Tom Hardy"
+    ]
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "director": "Jonathan Demme",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "actors": [
+      "Jodie Foster",
+      "Anthony Hopkins",
+      "Scott Glenn"
+    ]
+  },
+  {
+    "title": "Jurassic Park",
+    "year": 1993,
+    "director": "Steven Spielberg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "actors": [
+      "Sam Neill",
+      "Laura Dern",
+      "Jeff Goldblum"
+    ]
+  },
+  {
+    "title": "The Shining",
+    "year": 1980,
+    "director": "Stanley Kubrick",
+    "genres": [
+      "Drama",
+      "Horror"
+    ],
+    "actors": [
+      "Jack Nicholson",
+      "Shelley Duvall",
+      "Danny Lloyd"
+    ]
+  },
+  {
+    "title": "Forrest Gump",
+    "year": 1994,
+    "director": "Robert Zemeckis",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "actors": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise"
+    ]
+  },
+  {
+    "title": "The Departed",
+    "year": 2006,
+    "director": "Martin Scorsese",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "actors": [
+      "Leonardo DiCaprio",
+      "Matt Damon",
+      "Jack Nicholson"
+    ]
+  },
+  {
+    "title": "The Dark Knight Rises",
+    "year": 2012,
+    "director": "Christopher Nolan",
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "actors": [
+      "Christian Bale",
+      "Tom Hardy",
+      "Anne Hathaway"
+    ]
+  },
+  {
+    "title": "Titanic",
+    "year": 1997,
+    "director": "James Cameron",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "actors": [
+      "Leonardo DiCaprio",
+      "Kate Winslet",
+      "Billy Zane"
+    ]
+  },
+  {
+    "title": "Avatar",
+    "year": 2009,
+    "director": "James Cameron",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "actors": [
+      "Sam Worthington",
+      "Zoe Saldana",
+      "Sigourney Weaver"
+    ]
+  },
+  {
+    "title": "Inglourious Basterds",
+    "year": 2009,
+    "director": "Quentin Tarantino",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "War"
+    ],
+    "actors": [
+      "Brad Pitt",
+      "Diane Kruger",
+      "Eli Roth"
+    ]
+  },
+  {
+    "title": "The Godfather: Part II",
+    "year": 1974,
+    "director": "Francis Ford Coppola",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "actors": [
+      "Al Pacino",
+      "Robert De Niro",
+      "Robert Duvall"
+    ]
+  },
+  {
+    "title": "The Green Mile",
+    "year": 1999,
+    "director": "Frank Darabont",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Fantasy"
+    ],
+    "actors": [
+      "Tom Hanks",
+      "Michael Clarke Duncan",
+      "David Morse"
+    ]
+  },
+  {
+    "title": "Schindler's List",
+    "year": 1993,
+    "director": "Steven Spielberg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "actors": [
+      "Liam Neeson",
+      "Ben Kingsley",
+      "Ralph Fiennes"
+    ]
+  },
+  {
+    "title": "Fight Club",
+    "year": 1999,
+    "director": "David Fincher",
+    "genres": [
+      "Drama"
+    ],
+    "actors": [
+      "Brad Pitt",
+      "Edward Norton",
+      "Helena Bonham Carter"
+    ]
+  }
+]
