@@ -10,6 +10,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
 import java.util.concurrent.*;
+import java.util.stream.Stream;
 
 /**
  * Клас JSONParser надає функціональність для розбору JSON-файлів в каталозі та підрахунку входжень конкретного поля.
@@ -26,7 +27,7 @@ public class JSONParser {
      * @param maxThreadAmount     Максимальна кількість потоків у пулі потоків.
      */
     public JSONParser(int initialThreadAmount, int maxThreadAmount) {
-        this.executorService = new ThreadPoolExecutor(initialThreadAmount, maxThreadAmount, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<Runnable>(), new ThreadPoolExecutor.CallerRunsPolicy());
+        this.executorService = new ThreadPoolExecutor(initialThreadAmount, maxThreadAmount, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>(), new ThreadPoolExecutor.CallerRunsPolicy());
     }
 
     /**
@@ -38,8 +39,8 @@ public class JSONParser {
      */
     public Map<String, Integer> parseJsonFiles(String directoryPath, String parseField) {
         Map<String, Integer> result = new ConcurrentHashMap<>();
-        try {
-            Files.list(Path.of(directoryPath))
+        try (Stream<Path> paths = Files.list(Path.of(directoryPath))) {
+            paths
                     .filter(Files::isRegularFile)
                     .forEach(filePath -> executorService.submit(() -> {
                         try {
