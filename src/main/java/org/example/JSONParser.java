@@ -37,7 +37,7 @@ public class JSONParser {
      * @return Мапа, що містить розібрані значення поля та відповідні кількості входжень, відсортовані за кількістю входжень у спадаючому порядку.
      */
     public Map<String, Integer> parseJsonFiles(String directoryPath, String parseField) {
-        Map<String, Integer> result = new TreeMap<>();
+        Map<String, Integer> result = new ConcurrentHashMap<>();
         try {
             Files.list(Path.of(directoryPath))
                     .filter(Files::isRegularFile)
