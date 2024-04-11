@@ -13,11 +13,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Клас XmlConverter містить методи для конвертації даних Map в формат XML.
+ */
 public class XmlConverter {
 
     private static final Logger logger = LoggerFactory.getLogger(XmlConverter.class);
 
-
+    /**
+     * Метод convertToXml перетворює дані з Map в формат XML та зберігає їх у вказаному файлі.
+     *
+     * @param data       Дані для конвертації у формат XML.
+     * @param outputPath Шлях до каталогу, де буде збережений файл XML.
+     * @param field      Поле, за яким проводиться аналіз.
+     * @throws IOException Виняток, який виникає при помилці вводу-виводу під час збереження файлу XML.
+     */
     public static void convertToXml(Map<String, Integer> data, String outputPath, String field) throws IOException {
         XmlMapper xmlMapper = new XmlMapper();
         Statistic statistic = new Statistic();
@@ -32,11 +42,14 @@ public class XmlConverter {
         try {
             xmlMapper.writerWithDefaultPrettyPrinter().writeValue(outputFile, statistic);
         } catch (IOException e) {
-            logger.error("Failed to write XML to file: {}", filename, e);
+            logger.error("Не вдалося записати XML у файл: {}", filename, e);
             throw e;
         }
     }
 
+    /**
+     * Клас Statistic визначає статистику для конвертації в формат XML. (сутність)
+     */
     @JsonRootName("statistics")
     public static class Statistic {
         private List<XmlItem> items;
@@ -60,6 +73,9 @@ public class XmlConverter {
         }
     }
 
+    /**
+     * Клас XmlItem представляє елемент даних для конвертації в формат XML.
+     */
     public static class XmlItem {
         private String value;
         private int count;
